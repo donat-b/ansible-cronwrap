@@ -1,0 +1,11 @@
+---
+# defaults file for cronwrap
+cronwrap_ver: '0.2.0'
+cronwrap_url: 'https://github.com/donat-b/cronwrap/releases/download/v{{ cronwrap_ver }}/cronwrap-{{ cronwrap_ver }}-linux-x86_64'
+cronwrap_install_path: '/usr/local/bin'
+
+cronwrap_deps_list:
+  - 'libgnutls30'
+  - 'libgsasl7'
+  - 'libidn2-0'
+  - 'libxml2'

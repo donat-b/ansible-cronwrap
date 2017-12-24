@@ -1,0 +1,23 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  author: donat-b
+  description: 'cronwrap executes a command and sends error output over xmpp'
+  license: BSD
+  min_ansible_version: 2.4
+  platforms:
+  - name: Debian
+    versions:
+    - jessie
+    - stretch
+  - name: Ubuntu
+    versions:
+    - trusty
+    - wily
+    - xenial
+  galaxy_tags:
+    - cron
+    - cronwrap
+    - system
