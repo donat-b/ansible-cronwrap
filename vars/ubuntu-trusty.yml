@@ -1,0 +1,7 @@
+---
+
+cronwrap_deps:
+  - 'libgnutls28'
+  - 'libgsasl7'
+  - 'libidn2-0'
+  - 'libxml2'
