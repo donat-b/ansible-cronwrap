@@ -7,7 +7,7 @@ driver:
 lint:
   name: yamllint
   options:
-    config-file: yamllint.yml
+    config-file: molecule/yamllint.yml
 verifier:
   name: testinfra
   lint:
@@ -20,7 +20,15 @@ scenario:
   name: default
 
 platforms:
+  - name: cronwrap-bionic64
+    box: 'ubuntu/bionic64'
+  - name: cronwrap-zesty64
+    box: 'ubuntu/zesty64'
   - name: cronwrap-xenial64
-    box: ubuntu/xenial64
-    memory: 512
-    cpus: 1
+    box: 'ubuntu/xenial64'
+  - name: cronwrap-trusty64
+    box: 'ubuntu/trusty64'
+  - name: cronwrap-stretch64
+    box: 'debian/stretch64'
+  - name: cronwrap-jessie64
+    box: 'debian/jessie64'
