@@ -30,5 +30,3 @@ platforms:
     box: 'ubuntu/trusty64'
   - name: cronwrap-stretch64
     box: 'debian/stretch64'
-  - name: cronwrap-jessie64
-    box: 'debian/jessie64'

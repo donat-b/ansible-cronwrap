@@ -10,5 +10,10 @@
 
 - hosts: all
   become: true
+  vars:
+    cronwrap_user: 'cron@jabber.org'
+    cronwrap_password: 'testpassword'
+    cronwrap_host: 'jabber.org'
+    cronwrap_recipients: 'admin@jabber.org'
   roles:
     - ansible-cronwrap
