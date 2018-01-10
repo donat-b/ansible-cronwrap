@@ -1,4 +1,5 @@
 ---
+cronwrap_url: 'https://github.com/donat-b/cronwrap/releases/download/v{{ cronwrap_ver }}/cronwrap-gnutls28-{{ cronwrap_ver }}-linux-x86_64'
 
 cronwrap_deps:
   - 'libgnutls28'

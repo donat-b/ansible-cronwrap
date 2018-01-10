@@ -1,7 +1,7 @@
 ---
 
 cronwrap_deps:
-  - 'libgnutls-deb0-28'
+  - 'libgnutls30'
   - 'libgsasl7'
   - 'libidn2-0'
   - 'libxml2'
