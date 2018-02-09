@@ -4,14 +4,10 @@
   get_url:
     url: '{{ cronwrap_url }}'
     dest: '{{ cronwrap_install_path }}/cronwrap'
-  register: get_url
-
-- name: Ensure permissions are correct
-  file:
-    path: '{{ cronwrap_install_path }}/cronwrap'
-    mode: '0755'
+    force: True
     owner: 'root'
     group: 'root'
+    mode: '0755'
 
 - name: Ensure dependencies are installed
   package:
